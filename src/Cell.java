@@ -38,4 +38,13 @@ public class Cell {
     public void setPawn(Pawn pawn) {
         this.pawn = pawn;
     }
+
+    @Override
+    public String toString() {
+        return "Cell{" +
+                "type=" + type +
+                ", ID=" + ID +
+                ", pawn=" + pawn +
+                '}';
+    }
 }

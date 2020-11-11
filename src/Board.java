@@ -49,6 +49,10 @@ public class Board {
     }
 
 
+    public Cell getCell(int i) {
+        return cells.get(i);
+    }
+
     @Override
     public String toString() {
         return "Board{" +

@@ -19,18 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CellList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CellType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pawn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PawnList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PawnType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" afterDir="false" />
+    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="Build project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +55,20 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="TextBasedSenet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -85,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605122436570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Build project">
+      <created>1605127760150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605127760150</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,10 +124,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="231" y="54" key="#Project_Structure/0.0.1500.960@0.0.1500.960" timestamp="1605125444124" />
-    <state x="513" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1605127613861">
+    <state x="513" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1605127900616">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="513" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1605127613861" />
+    <state x="513" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1605127900616" />
     <state x="436" y="115" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605126369301">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -122,10 +136,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="189" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1605123651563" />
+    <state width="1458" height="255" key="GridCell.Tab.0.bottom" timestamp="1605127910532">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="255" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605127910532" />
+    <state width="1458" height="255" key="GridCell.Tab.0.center" timestamp="1605127910532">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="255" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605127910532" />
+    <state width="1458" height="255" key="GridCell.Tab.0.left" timestamp="1605127910531">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="255" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605127910531" />
+    <state width="1458" height="255" key="GridCell.Tab.0.right" timestamp="1605127910532">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="255" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605127910532" />
     <state x="231" y="54" key="SettingsEditor" timestamp="1605123497722">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="231" y="54" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1605123497722" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1605127767350">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1605127767350" />
     <state x="822" y="0" width="683" height="965" key="dock-window-1" timestamp="1605126917150">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
