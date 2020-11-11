@@ -49,6 +49,13 @@ public class Board {
     }
 
 
+    public void movePawn(int a, int b) {
+        Cell cellA = cells.get(a);
+        Cell cellB = cells.get(b);
+        cellB.setPawn(cellA.getPawn());
+        cellA.setPawn(null);
+    }
+
     public Cell getCell(int i) {
         return cells.get(i);
     }
