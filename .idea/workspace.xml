@@ -1,6 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CellList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CellType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PawnList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PawnType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k9ojYpsBjmNGqLnKXGcrtD6MG5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/BoardGamesAI" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/BoardGamesAI" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="" />
+      <created>1605122304463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605122304463</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Create IDEA workspace">
+      <created>1605122348866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605122348866</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Build project">
+      <created>1605122436570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605122436570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create IDEA workspace" />
+    <MESSAGE value="Build project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="231" y="54" key="#Project_Structure" timestamp="1605125444124">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="231" y="54" key="#Project_Structure/0.0.1500.960@0.0.1500.960" timestamp="1605125444124" />
+    <state x="513" y="181" key="#com.intellij.ide.util.MemberChooser" timestamp="1605127613861">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="513" y="181" key="#com.intellij.ide.util.MemberChooser/0.0.1500.960@0.0.1500.960" timestamp="1605127613861" />
+    <state x="436" y="115" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605126369301">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="436" y="115" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1500.960@0.0.1500.960" timestamp="1605126369301" />
+    <state x="531" y="189" key="FileChooserDialogImpl" timestamp="1605123651563">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="531" y="189" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1605123651563" />
+    <state x="231" y="54" key="SettingsEditor" timestamp="1605123497722">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="231" y="54" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1605123497722" />
+    <state x="822" y="0" width="683" height="965" key="dock-window-1" timestamp="1605126917150">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="822" y="0" width="683" height="965" key="dock-window-1/0.0.1500.960@0.0.1500.960" timestamp="1605126917150" />
+    <state x="175" y="90" key="new project wizard" timestamp="1605123534342">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="175" y="90" key="new project wizard/0.0.1500.960@0.0.1500.960" timestamp="1605123534342" />
+    <state x="421" y="214" width="672" height="678" key="search.everywhere.popup" timestamp="1605125507893">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="421" y="214" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1605125507893" />
   </component>
 </project>
