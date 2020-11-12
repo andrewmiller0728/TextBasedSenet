@@ -2,11 +2,9 @@
 
 public class Board {
 
-
     private CellList cells;
     private PawnList whitePawns;
     private PawnList blackPawns;
-
 
     public Board() {
 

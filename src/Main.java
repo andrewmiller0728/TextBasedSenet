@@ -2,21 +2,21 @@
 
 public class Main {
 
-    private static Board gameboard;
+    private static Board board;
 
     public static void main(String[] args) {
-        gameboard = new Board();
+        board = new Board();
 
-        gameboard.movePawn(9, gameboard.tossSticks());
+        board.movePawn(9, board.tossSticks());
         printVisualBoard();
 
-        gameboard.movePawn(8, gameboard.tossSticks());
+        board.movePawn(8, board.tossSticks());
         printVisualBoard();
 
-        gameboard.movePawn(7, gameboard.tossSticks());
+        board.movePawn(7, board.tossSticks());
         printVisualBoard();
 
-        gameboard.movePawn(6, gameboard.tossSticks());
+        board.movePawn(6, board.tossSticks());
         printVisualBoard();
     }
 
@@ -27,7 +27,7 @@ public class Main {
         for (int i = 0; i < 30; i++) {
             output1 = output1.concat(String.format(" %02d|", i));
 
-            Cell currCell = gameboard.getCell(i);
+            Cell currCell = board.getCell(i);
             if (currCell.getPawn() == null) {
                 output2 = output2.concat("---|");
             }
@@ -43,7 +43,6 @@ public class Main {
         }
 
         System.out.println(output1 + "\n" + output2 + "\n");
-
     }
 
 }
