@@ -3,20 +3,15 @@
 public class Main {
 
     private static Board board;
+    private static Player playerA, playerB;
+    private static GameMaster gm;
 
     public static void main(String[] args) {
         board = new Board();
-
-        board.movePawn(9, board.tossSticks());
-        printVisualBoard();
-
-        board.movePawn(8, board.tossSticks());
-        printVisualBoard();
-
-        board.movePawn(7, board.tossSticks());
-        printVisualBoard();
-
-        board.movePawn(6, board.tossSticks());
+        playerA = new Player("Andrew");
+        playerB = new Player("Charlotte");
+        gm = new GameMaster(board, playerA, playerB);
+        gm.startGame();
         printVisualBoard();
     }
 
