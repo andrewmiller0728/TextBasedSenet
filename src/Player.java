@@ -5,6 +5,7 @@ public class Player {
     private String name;
     private PawnList pawns;
     private int currThrow;
+    // TODO: score
 
     public Player(String name) {
         this.name = name;
@@ -16,6 +17,10 @@ public class Player {
         this.name = name;
         this.pawns = pawns;
         this.currThrow = 0;
+    }
+
+    public boolean isCurrThrow2or3() {
+        return this.getCurrThrow() == 2 || this.getCurrThrow() == 3;
     }
 
     public String getName() {

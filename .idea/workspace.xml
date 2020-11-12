@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="Remove unnecessary constructors">
+    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="Redesign main with new GameMaster object">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605154634348</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Redesign main with new GameMaster object">
+      <created>1605155199664</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605155199664</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +206,8 @@
     <MESSAGE value="getFirstPlayer() returns first player" />
     <MESSAGE value="startGame() prints beginning player information" />
     <MESSAGE value="Remove unnecessary constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unnecessary constructors" />
+    <MESSAGE value="Redesign main with new GameMaster object" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redesign main with new GameMaster object" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="54" key="#Project_Structure" timestamp="1605125444124">
@@ -216,22 +226,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="189" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1605123651563" />
-    <state width="1458" height="276" key="GridCell.Tab.0.bottom" timestamp="1605155048413">
+    <state width="1458" height="276" key="GridCell.Tab.0.bottom" timestamp="1605157070633">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605155048413" />
-    <state width="1458" height="276" key="GridCell.Tab.0.center" timestamp="1605155048412">
+    <state width="1458" height="276" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605157070633" />
+    <state width="1458" height="276" key="GridCell.Tab.0.center" timestamp="1605157070629">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605155048412" />
-    <state width="1458" height="276" key="GridCell.Tab.0.left" timestamp="1605155048411">
+    <state width="1458" height="276" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605157070629" />
+    <state width="1458" height="276" key="GridCell.Tab.0.left" timestamp="1605157070626">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605155048411" />
-    <state width="1458" height="276" key="GridCell.Tab.0.right" timestamp="1605155048412">
+    <state width="1458" height="276" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605157070626" />
+    <state width="1458" height="276" key="GridCell.Tab.0.right" timestamp="1605157070631">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605155048412" />
+    <state width="1458" height="276" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605157070631" />
     <state x="231" y="54" key="SettingsEditor" timestamp="1605130152861">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

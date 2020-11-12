@@ -7,13 +7,11 @@ public class Board {
     private PawnList blackPawns;
 
     public Board() {
-
         cells = new CellList();
         whitePawns = new PawnList();
         blackPawns = new PawnList();
 
         for (int i = 0; i < 30; i++) {
-
             if (i < 10) {
                 Cell newCell = new Cell(CellType.DEFAULT, i);
                 Pawn newPawn;
@@ -43,9 +41,7 @@ public class Board {
             else {
                 cells.addCell(new Cell(CellType.DEFAULT, cells.getIndex()));
             }
-
         }
-
     }
 
     public void movePawn(int x, int dx) {
@@ -100,6 +96,32 @@ public class Board {
                 ", whitePawns=" + whitePawns.toString() +
                 ", blackPawns=" + blackPawns.toString() +
                 '}';
+    }
+
+    public String getVisualBoard() {
+        String output1 = "       |";
+        String output2 = "Board: |";
+
+        for (int i = 0; i < 30; i++) {
+            Cell currCell = this.getCell(i);
+
+            output1 = output1.concat(String.format(" %02d|", currCell.getID()));
+
+            if (currCell.getPawn() == null) {
+                output2 = output2.concat("---|");
+            }
+            else if (currCell.getPawn().getType() == PawnType.BLACK) {
+                output2 = output2.concat("-X-|");
+            }
+            else if (currCell.getPawn().getType() == PawnType.WHITE) {
+                output2 = output2.concat("-O-|");
+            }
+            else {
+                output2 = output2.concat("-?-|");
+            }
+        }
+
+        return output1 + "\n" + output2 + "\n";
     }
 
     @Deprecated

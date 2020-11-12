@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class GameMaster {
 
@@ -34,23 +34,54 @@ public class GameMaster {
             playerB.setPawns(board.getBlackPawns());
         }
 
-        System.out.printf("%s, you're the white player. Your first move is %d spaces%n",
+        System.out.printf("%s, you're the white player. Your first move is %d spaces\n",
                                          whitePlayer.getName(),
                                          whitePlayer.getCurrThrow());
-        System.out.printf("%s, you're the black player.%n",
+        System.out.printf("%s, you're the black player.\n",
                                          blackPlayer.getName());
+
+        System.out.println(board.getVisualBoard());
+
+        Scanner in = new Scanner(System.in);
+        System.out.printf("%s, you threw a %d with the sticks, which pawn would you like to move? (0-4)\n",
+                currPlayer.getName(),
+                currPlayer.getCurrThrow());
+        int playerAns = in.nextInt();
+        Cell startCell = board.getCell(currPlayer.getPawns().get(playerAns));
+        board.movePawn(startCell.getID(), currPlayer.getCurrThrow());
+    }
+
+    public void nextTurn() {
+        // Change players if previous player doesn't get another turn
+        if (currPlayer.isCurrThrow2or3() && currPlayer.equals(playerA)) {
+            if (currPlayer.equals(playerA)) {
+                currPlayer = playerB;
+            } else {
+                currPlayer = playerA;
+            }
+        }
+
+        System.out.println(board.getVisualBoard());
+
+        Scanner in = new Scanner(System.in);
+        System.out.printf("%s, you threw a %d with the sticks, which pawn would you like to move? (0-4)\n",
+                          currPlayer.getName(),
+                          currPlayer.getCurrThrow());
+        int playerAns = in.nextInt();
+        Cell startCell = board.getCell(currPlayer.getPawns().get(playerAns));
+        board.movePawn(startCell.getID(), currPlayer.getCurrThrow());
     }
 
     private Player getFirstPlayer() {
         do {
             playerA.tossSticks();
             playerB.tossSticks();
-        } while ((playerA.getCurrThrow() == 2 || playerA.getCurrThrow() == 3) == (playerB.getCurrThrow() == 2 || playerB.getCurrThrow() == 3));
+        } while (playerA.isCurrThrow2or3() == playerB.isCurrThrow2or3());
 
-        if (playerA.getCurrThrow() == 2 || playerA.getCurrThrow() == 3) {
+        if (playerA.isCurrThrow2or3()) {
             return playerA;
         }
-        else if (playerB.getCurrThrow() == 2 || playerB.getCurrThrow() == 3) {
+        else if (playerB.isCurrThrow2or3()) {
             return playerB;
         }
         else {
