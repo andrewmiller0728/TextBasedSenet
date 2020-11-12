@@ -6,12 +6,6 @@ public class Player {
     private PawnList pawns;
     private int currThrow;
 
-    public Player() {
-        this.name = null;
-        this.pawns = null;
-        this.currThrow = 0;
-    }
-
     public Player(String name) {
         this.name = name;
         this.pawns = null;

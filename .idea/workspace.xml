@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="getFirstPlayer() returns first player">
+    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="startGame() prints beginning player information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605153990274</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="startGame() prints beginning player information">
+      <created>1605154336409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605154336409</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,7 +190,8 @@
     <MESSAGE value="Board.tossSticks() deprecated, Player.tossSticks() added" />
     <MESSAGE value="Player.tossSticks() sets new private var currThrow" />
     <MESSAGE value="getFirstPlayer() returns first player" />
-    <option name="LAST_COMMIT_MESSAGE" value="getFirstPlayer() returns first player" />
+    <MESSAGE value="startGame() prints beginning player information" />
+    <option name="LAST_COMMIT_MESSAGE" value="startGame() prints beginning player information" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="54" key="#Project_Structure" timestamp="1605125444124">

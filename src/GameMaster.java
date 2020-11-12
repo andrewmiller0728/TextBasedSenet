@@ -6,12 +6,6 @@ public class GameMaster {
     private final Player playerA;
     private final Player playerB;
 
-    public GameMaster() {
-        this.board = null;
-        this.playerA = null;
-        this.playerB = null;
-    }
-
     public GameMaster(Board board, Player playerA, Player playerB) {
         this.board = board;
         this.playerA = playerA;
@@ -20,24 +14,25 @@ public class GameMaster {
 
     public void startGame() {
         Player whitePlayer, blackPlayer;
-        if (this.getFirstPlayer().equals(playerA)) {
-            whitePlayer = playerA;
-            playerA.setPawns(board.getWhitePawns());
-            blackPlayer = playerB;
-            playerB.setPawns(board.getBlackPawns());
-        }
-        else {
+        Player firstPlayer = this.getFirstPlayer();
+        if (firstPlayer != null && firstPlayer.equals(playerB)) {
             whitePlayer = playerB;
             playerB.setPawns(board.getWhitePawns());
             blackPlayer = playerA;
             playerA.setPawns(board.getBlackPawns());
         }
+        else {
+            whitePlayer = playerA;
+            playerA.setPawns(board.getWhitePawns());
+            blackPlayer = playerB;
+            playerB.setPawns(board.getBlackPawns());
+        }
 
-        System.out.println(String.format("%s, you're the white player. Your first move is %d spaces",
+        System.out.printf("%s, you're the white player. Your first move is %d spaces%n",
                                          whitePlayer.getName(),
-                                         whitePlayer.getCurrThrow()));
-        System.out.println(String.format("%s, you're the black player.",
-                                         blackPlayer.getName()));
+                                         whitePlayer.getCurrThrow());
+        System.out.printf("%s, you're the black player.%n",
+                                         blackPlayer.getName());
     }
 
     private Player getFirstPlayer() {

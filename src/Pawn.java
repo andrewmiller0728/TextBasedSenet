@@ -5,12 +5,6 @@ public class Pawn {
     private int ID;
     private Cell cell;
 
-    public Pawn() {
-        this.type = null;
-        this.ID = -1;
-        this.cell = null;
-    }
-
     public Pawn(PawnType type, int ID) {
         this.type = type;
         this.ID = ID;
