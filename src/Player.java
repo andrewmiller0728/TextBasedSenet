@@ -4,20 +4,24 @@ public class Player {
 
     private String name;
     private PawnList pawns;
+    private int currThrow;
 
     public Player() {
         this.name = null;
         this.pawns = null;
+        this.currThrow = 0;
     }
 
     public Player(String name) {
         this.name = name;
         this.pawns = null;
+        this.currThrow = 0;
     }
 
     public Player(String name, PawnList pawns) {
         this.name = name;
         this.pawns = pawns;
+        this.currThrow = 0;
     }
 
     public String getName() {
@@ -28,6 +32,10 @@ public class Player {
         return pawns;
     }
 
+    public int getCurrThrow() {
+        return currThrow;
+    }
+
     public void setPawns(PawnList pawns) {
         this.pawns = pawns;
     }
@@ -35,22 +43,23 @@ public class Player {
     public int tossSticks() {
         double gen = Math.random() * 16;
         if (gen < 4) {
-            return 1;
+            this.currThrow = 1;
         }
         else if (gen < 10) {
-            return 2;
+            this.currThrow = 2;
         }
         else if (gen < 14) {
-            return 3;
+            this.currThrow = 3;
         }
         else if (gen < 15) {
-            return 4;
+            this.currThrow = 4;
         }
         else if (gen < 16) {
-            return 6;
+            this.currThrow = 6;
         }
         else {
-            return 0;
+            this.currThrow = 0;
         }
+        return this.currThrow;
     }
 }

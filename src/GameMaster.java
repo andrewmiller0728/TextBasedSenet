@@ -18,6 +18,12 @@ public class GameMaster {
     }
 
     public Player getFirstPlayer() {
+        int toss1, toss2;
+        do {
+            toss1 = player1.tossSticks();
+            toss2 = player2.tossSticks();
+        } while (!(toss1 == 2 || toss1 == 3) && !(toss2 == 2 || toss2 == 3));
+
         return null;
     }
 
