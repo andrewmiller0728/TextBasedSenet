@@ -48,28 +48,6 @@ public class Board {
 
     }
 
-    public int tossSticks() {
-        double gen = Math.random() * 16;
-        if (gen < 4) {
-            return 1;
-        }
-        else if (gen < 10) {
-            return 2;
-        }
-        else if (gen < 14) {
-            return 3;
-        }
-        else if (gen < 15) {
-            return 4;
-        }
-        else if (gen < 16) {
-            return 6;
-        }
-        else {
-            return 0;
-        }
-    }
-
     public void movePawn(int x, int dx) {
         Cell cellA = cells.get(x);
         Pawn pawnA = cellA.getPawn();
@@ -122,5 +100,28 @@ public class Board {
                 ", whitePawns=" + whitePawns.toString() +
                 ", blackPawns=" + blackPawns.toString() +
                 '}';
+    }
+
+    @Deprecated
+    public int tossSticks() {
+        double gen = Math.random() * 16;
+        if (gen < 4) {
+            return 1;
+        }
+        else if (gen < 10) {
+            return 2;
+        }
+        else if (gen < 14) {
+            return 3;
+        }
+        else if (gen < 15) {
+            return 4;
+        }
+        else if (gen < 16) {
+            return 6;
+        }
+        else {
+            return 0;
+        }
     }
 }

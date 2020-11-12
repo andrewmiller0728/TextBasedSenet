@@ -18,6 +18,7 @@ public class GameMaster {
     }
 
     public Player getFirstPlayer() {
+        return null;
     }
 
 }
