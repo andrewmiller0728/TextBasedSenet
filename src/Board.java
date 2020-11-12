@@ -111,10 +111,10 @@ public class Board {
                 output2 = output2.concat("---|");
             }
             else if (currCell.getPawn().getType() == PawnType.BLACK) {
-                output2 = output2.concat("-X-|");
+                output2 = output2.concat("-B-|");
             }
             else if (currCell.getPawn().getType() == PawnType.WHITE) {
-                output2 = output2.concat("-O-|");
+                output2 = output2.concat("-W-|");
             }
             else {
                 output2 = output2.concat("-?-|");

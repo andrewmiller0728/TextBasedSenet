@@ -27,7 +27,8 @@
     <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="Print welcome message">
       <change beforePath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605157294901</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Print welcome message">
+      <created>1605157612416</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1605157612416</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,22 +263,22 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="189" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1605123651563" />
-    <state width="1458" height="276" key="GridCell.Tab.0.bottom" timestamp="1605157070633">
+    <state width="1458" height="199" key="GridCell.Tab.0.bottom" timestamp="1605157905896">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605157070633" />
-    <state width="1458" height="276" key="GridCell.Tab.0.center" timestamp="1605157070629">
+    <state width="1458" height="199" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605157905896" />
+    <state width="1458" height="199" key="GridCell.Tab.0.center" timestamp="1605157905895">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605157070629" />
-    <state width="1458" height="276" key="GridCell.Tab.0.left" timestamp="1605157070626">
+    <state width="1458" height="199" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605157905895" />
+    <state width="1458" height="199" key="GridCell.Tab.0.left" timestamp="1605157905895">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605157070626" />
-    <state width="1458" height="276" key="GridCell.Tab.0.right" timestamp="1605157070631">
+    <state width="1458" height="199" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605157905895" />
+    <state width="1458" height="199" key="GridCell.Tab.0.right" timestamp="1605157905895">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="276" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605157070631" />
+    <state width="1458" height="199" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605157905895" />
     <state x="231" y="54" key="SettingsEditor" timestamp="1605130152861">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

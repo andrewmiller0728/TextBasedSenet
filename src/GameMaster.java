@@ -53,13 +53,15 @@ public class GameMaster {
 
     public void nextTurn() {
         // Change players if previous player doesn't get another turn
-        if (currPlayer.isCurrThrow2or3() && currPlayer.equals(playerA)) {
+        if (currPlayer.isCurrThrow2or3()) {
             if (currPlayer.equals(playerA)) {
                 currPlayer = playerB;
             } else {
                 currPlayer = playerA;
             }
         }
+
+        currPlayer.tossSticks();
 
         System.out.println(board.getVisualBoard());
 

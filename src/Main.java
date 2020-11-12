@@ -14,7 +14,9 @@ public class Main {
 
         System.out.println("Welcome to Andrew's Senet Game!\n");
         gm.startGame();
-        gm.nextTurn();
+        for (int i = 0; i < 5; i++) {
+            gm.nextTurn();
+        }
     }
 
 }
