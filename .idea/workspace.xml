@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="Player.tossSticks() sets new private var currThrow">
+    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="getFirstPlayer() returns first player">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMaster.java" afterDir="false" />
     </list>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605151557918</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="getFirstPlayer() returns first player">
+      <created>1605153990274</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605153990274</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,7 +179,8 @@
     <MESSAGE value="Player and GameMaster Classes" />
     <MESSAGE value="Board.tossSticks() deprecated, Player.tossSticks() added" />
     <MESSAGE value="Player.tossSticks() sets new private var currThrow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player.tossSticks() sets new private var currThrow" />
+    <MESSAGE value="getFirstPlayer() returns first player" />
+    <option name="LAST_COMMIT_MESSAGE" value="getFirstPlayer() returns first player" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="54" key="#Project_Structure" timestamp="1605125444124">
