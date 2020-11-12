@@ -1,5 +1,9 @@
 
-
+/**
+ * Builds board with cells
+ * Lays pawns at starting positions
+ * Handles board-related operations
+ */
 public class Board {
 
     private CellList cells;

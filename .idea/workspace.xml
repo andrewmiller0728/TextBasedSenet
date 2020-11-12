@@ -20,16 +20,18 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="Print welcome message">
+    <list default="true" id="570c771a-ab62-4e5d-b395-5e6b3b6ab456" name="Default Changelist" comment="nextTurn() works">
       <change beforePath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TextBasedSenet.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605157612416</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="nextTurn() works">
+      <created>1605158121802</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1605158121802</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +230,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -244,7 +265,8 @@
     <MESSAGE value="Redesign main with new GameMaster object" />
     <MESSAGE value="is currThrow 2 or 3 method&#10;nextTurn&#10;movePawn broke so making boardTest" />
     <MESSAGE value="Print welcome message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Print welcome message" />
+    <MESSAGE value="nextTurn() works" />
+    <option name="LAST_COMMIT_MESSAGE" value="nextTurn() works" />
   </component>
   <component name="WindowStateProjectService">
     <state x="231" y="54" key="#Project_Structure" timestamp="1605125444124">
@@ -263,30 +285,30 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="531" y="189" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1605123651563" />
-    <state width="1458" height="199" key="GridCell.Tab.0.bottom" timestamp="1605157905896">
+    <state width="1458" height="417" key="GridCell.Tab.0.bottom" timestamp="1605158099357">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="199" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605157905896" />
-    <state width="1458" height="199" key="GridCell.Tab.0.center" timestamp="1605157905895">
+    <state width="1458" height="417" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1605158099357" />
+    <state width="1458" height="417" key="GridCell.Tab.0.center" timestamp="1605158099357">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="199" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605157905895" />
-    <state width="1458" height="199" key="GridCell.Tab.0.left" timestamp="1605157905895">
+    <state width="1458" height="417" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1605158099357" />
+    <state width="1458" height="417" key="GridCell.Tab.0.left" timestamp="1605158099356">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="199" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605157905895" />
-    <state width="1458" height="199" key="GridCell.Tab.0.right" timestamp="1605157905895">
+    <state width="1458" height="417" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1605158099356" />
+    <state width="1458" height="417" key="GridCell.Tab.0.right" timestamp="1605158099357">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state width="1458" height="199" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605157905895" />
+    <state width="1458" height="417" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1605158099357" />
     <state x="231" y="54" key="SettingsEditor" timestamp="1605130152861">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="231" y="54" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1605130152861" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1605154672744">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1605158146454">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1605154672744" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1605158146454" />
     <state x="474" y="372" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605157223826">
       <screen x="0" y="0" width="1500" height="960" />
     </state>

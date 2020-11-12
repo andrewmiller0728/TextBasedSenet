@@ -1,5 +1,7 @@
 
-
+/**
+ * Stores data about a player
+ */
 public class Player {
 
     private String name;

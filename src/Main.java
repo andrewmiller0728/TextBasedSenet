@@ -1,5 +1,7 @@
 
-
+/**
+ * Runs the GameMaster object
+ */
 public class Main {
 
     private static Board board;

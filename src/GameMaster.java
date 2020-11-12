@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Runs the mechanics of the game
+ * Responsible for starting the game, running each turn, and ending the game
+ */
 public class GameMaster {
 
     private Board board;
@@ -44,8 +48,8 @@ public class GameMaster {
 
         Scanner in = new Scanner(System.in);
         System.out.printf("%s, you threw a %d with the sticks, which pawn would you like to move? (0-4)\n",
-                currPlayer.getName(),
-                currPlayer.getCurrThrow());
+                          currPlayer.getName(),
+                          currPlayer.getCurrThrow());
         int playerAns = in.nextInt();
         Cell startCell = board.getCell(currPlayer.getPawns().get(playerAns));
         board.movePawn(startCell.getID(), currPlayer.getCurrThrow());
@@ -56,7 +60,8 @@ public class GameMaster {
         if (currPlayer.isCurrThrow2or3()) {
             if (currPlayer.equals(playerA)) {
                 currPlayer = playerB;
-            } else {
+            }
+            else {
                 currPlayer = playerA;
             }
         }
