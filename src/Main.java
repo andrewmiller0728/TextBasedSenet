@@ -7,60 +7,43 @@ public class Main {
     public static void main(String[] args) {
         gameboard = new Board();
 
-        printCells();
-        System.out.println();
-
         gameboard.movePawn(9, gameboard.tossSticks());
-        printCells();
-        System.out.println();
+        printVisualBoard();
 
         gameboard.movePawn(8, gameboard.tossSticks());
-        printCells();
-        System.out.println();
+        printVisualBoard();
 
         gameboard.movePawn(7, gameboard.tossSticks());
-        printCells();
-        System.out.println();
+        printVisualBoard();
 
-        gameboard.removePawn(gameboard.getWhitePawns().get(4));
-        printCells();
-        System.out.println();
-
-        gameboard.removePawn(gameboard.getBlackPawns().get(4));
-        printCells();
-        System.out.println();
+        gameboard.movePawn(6, gameboard.tossSticks());
+        printVisualBoard();
     }
 
-//    private static void printPawns() {
-//        // White Pawns
-//        PawnList whitepawns = gameboard.getWhitePawns();
-//        for (int i = 0; i < whitepawns.getIndex(); i++) {
-//            Pawn currPawn = whitepawns.get(i);
-//            Cell currCell = gameboard.getCell(currPawn);
-//            System.out.println(String.format("White pawn %d: Cell %d", i, currCell.getID()));
-//        }
-//        // Black Pawns
-//        PawnList blackpawns = gameboard.getBlackPawns();
-//        for (int i = 0; i < blackpawns.getSize(); i++) {
-//            Pawn currPawn = blackpawns.get(i);
-//            Cell currCell = gameboard.getCell(currPawn);
-//            System.out.println(String.format("Black pawn %d: Cell %d", i, currCell.getID()));
-//        }
-//    }
+    private static void printVisualBoard() {
+        String output1 = "       |";
+        String output2 = "Board: |";
 
-    private static void printCells() {
         for (int i = 0; i < 30; i++) {
+            output1 = output1.concat(String.format(" %02d|", i));
+
             Cell currCell = gameboard.getCell(i);
-            Pawn currPawn = currCell.getPawn();
-            String output;
-            if (currPawn != null) {
-                output = String.format("%s Cell %d: %s Pawn", currCell.getType(), currCell.getID(), currPawn.getType());
+            if (currCell.getPawn() == null) {
+                output2 = output2.concat("---|");
+            }
+            else if (currCell.getPawn().getType() == PawnType.BLACK) {
+                output2 = output2.concat("-X-|");
+            }
+            else if (currCell.getPawn().getType() == PawnType.WHITE) {
+                output2 = output2.concat("-O-|");
             }
             else {
-                output = String.format("%s Cell %d: %s Pawn", currCell.getType(), currCell.getID(), "no");
+                output2 = output2.concat("-?-|");
             }
-            System.out.println(output);
         }
+
+        System.out.println(output1 + "\n" + output2 + "\n");
+
     }
 
 }
