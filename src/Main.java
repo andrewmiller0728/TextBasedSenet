@@ -11,6 +11,8 @@ public class Main {
         playerA = new Player("Andrew");
         playerB = new Player("Charlotte");
         gm = new GameMaster(board, playerA, playerB);
+
+        System.out.println("Welcome to Andrew's Senet Game!\n");
         gm.startGame();
         gm.nextTurn();
     }
