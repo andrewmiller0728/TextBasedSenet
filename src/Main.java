@@ -6,17 +6,47 @@ public class Main {
 
     public static void main(String[] args) {
         gameboard = new Board();
-        System.out.println(gameboard.toString());
 
         printCells();
         System.out.println();
-        gameboard.movePawn(9, 11);
-        gameboard.movePawn(8, 9);
-        gameboard.movePawn(7, 13);
+
+        gameboard.movePawn(9, gameboard.tossSticks());
         printCells();
         System.out.println();
 
+        gameboard.movePawn(8, gameboard.tossSticks());
+        printCells();
+        System.out.println();
+
+        gameboard.movePawn(7, gameboard.tossSticks());
+        printCells();
+        System.out.println();
+
+        gameboard.removePawn(gameboard.getWhitePawns().get(4));
+        printCells();
+        System.out.println();
+
+        gameboard.removePawn(gameboard.getBlackPawns().get(4));
+        printCells();
+        System.out.println();
     }
+
+//    private static void printPawns() {
+//        // White Pawns
+//        PawnList whitepawns = gameboard.getWhitePawns();
+//        for (int i = 0; i < whitepawns.getIndex(); i++) {
+//            Pawn currPawn = whitepawns.get(i);
+//            Cell currCell = gameboard.getCell(currPawn);
+//            System.out.println(String.format("White pawn %d: Cell %d", i, currCell.getID()));
+//        }
+//        // Black Pawns
+//        PawnList blackpawns = gameboard.getBlackPawns();
+//        for (int i = 0; i < blackpawns.getSize(); i++) {
+//            Pawn currPawn = blackpawns.get(i);
+//            Cell currCell = gameboard.getCell(currPawn);
+//            System.out.println(String.format("Black pawn %d: Cell %d", i, currCell.getID()));
+//        }
+//    }
 
     private static void printCells() {
         for (int i = 0; i < 30; i++) {

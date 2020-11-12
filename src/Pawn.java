@@ -3,15 +3,32 @@ public class Pawn {
 
     private PawnType type;
     private int ID;
+    private Cell cell;
 
     public Pawn() {
         this.type = null;
         this.ID = -1;
+        this.cell = null;
     }
 
     public Pawn(PawnType type, int ID) {
         this.type = type;
         this.ID = ID;
+        this.cell = null;
+    }
+
+    public Pawn(PawnType type, int ID, Cell cell) {
+        this.type = type;
+        this.ID = ID;
+        this.cell = cell;
+    }
+
+    public Cell getCell() {
+        return cell;
+    }
+
+    public void setCell(Cell cell) {
+        this.cell = cell;
     }
 
     public PawnType getType() {
